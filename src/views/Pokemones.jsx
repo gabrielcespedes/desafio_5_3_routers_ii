@@ -10,8 +10,9 @@ const Pokemones = () => {
             <div className="box">
                 <select className="selector my-4">
                     <option selected="true" disables="disabled">Pokemones</option>
-                    <option >pokemon 1</option>
-                    <option>pokemon 2</option>
+                    {data.map(
+                        (element, index) => <option value={index+1}>{element.name}</option>                        
+                    )}
                 </select>
                 <button className="btn btn-dark button my-3">Ver Detalle</button>                              
             </div>
