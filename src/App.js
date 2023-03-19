@@ -6,13 +6,14 @@ import Navbar from './components/Navbar';
 
 import Home from './views/Home';
 import Pokemones from './views/Pokemones';
+import Pokemon from './views/Pokemon';
 
 import MyContext from './my_context';
 import { useEffect, useState } from 'react';
 
 function App() {
   const endpoint = "https://pokeapi.co/api/v2/pokemon";
-  const [data, setData] = useState({});
+  const [data, setData] = useState([]);
   const estadoCompartido = {data};
 
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/pokemones' element={<Pokemones></Pokemones>}></Route>
+          <Route path='/pokemones/:id' element={<Pokemon></Pokemon>}></Route>
         </Routes>                      
       </BrowserRouter>
     </MyContext.Provider>    

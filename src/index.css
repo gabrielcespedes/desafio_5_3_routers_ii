@@ -29,3 +29,14 @@ code {
 .button {
   width: 120px;
 }
+
+.card_interior {
+  display: flex;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
