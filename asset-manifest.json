@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/desafio_5_3_routers_ii/static/css/main.3ba81313.css",
+    "main.js": "/desafio_5_3_routers_ii/static/js/main.20e6f61e.js",
+    "static/js/787.437800b1.chunk.js": "/desafio_5_3_routers_ii/static/js/787.437800b1.chunk.js",
+    "static/media/totodile.png": "/desafio_5_3_routers_ii/static/media/totodile.94acdb702148aa6f3725.png",
+    "static/media/location.png": "/desafio_5_3_routers_ii/static/media/location.a0e89e3e70eb28b9925c.png",
+    "index.html": "/desafio_5_3_routers_ii/index.html",
+    "main.3ba81313.css.map": "/desafio_5_3_routers_ii/static/css/main.3ba81313.css.map",
+    "main.20e6f61e.js.map": "/desafio_5_3_routers_ii/static/js/main.20e6f61e.js.map",
+    "787.437800b1.chunk.js.map": "/desafio_5_3_routers_ii/static/js/787.437800b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba81313.css",
+    "static/js/main.20e6f61e.js"
+  ]
+}
