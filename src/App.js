@@ -32,6 +32,7 @@ function App() {
         <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/desafio_5_3_routers_ii' element={<Home></Home>}></Route>
           <Route path='/pokemones' element={<Pokemones></Pokemones>}></Route>
           <Route path='/pokemones/:id' element={<Pokemon></Pokemon>}></Route>
         </Routes>                      

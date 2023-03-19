@@ -3,7 +3,7 @@ import location from '../location.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-    const setActivateClass = ({isActive}) => (isActive ? "text-danger text-decoration-none mx-2 fs-5": "text-light text-decoration-none mx-2");
+    const setActivateClass = ({isActive}) => (isActive ? "active": "text-decoration-none text-light mx-1");
 
     return(
         <div className='navbar bg-secondary'>

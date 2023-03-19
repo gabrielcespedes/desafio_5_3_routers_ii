@@ -19,6 +19,14 @@ code {
   
 }
 
+.active {
+  color:crimson;
+  text-decoration: none;
+  margin-left: 5px ;
+  margin-right: 5px;
+  font-size: 18px;  
+}
+
 .selector {
   width: 360px;
   height: 50px;
